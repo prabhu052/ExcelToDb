@@ -66,6 +66,8 @@ public class ExcelToArrayListToConsol {
 			cellValue = "";
 		}
 		return cellValue;
+		
+		
 	}
 
 	public static void main(String[] args) {
