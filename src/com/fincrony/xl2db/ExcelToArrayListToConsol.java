@@ -1,4 +1,4 @@
-package com.fincrony.xl2db;
+/*package com.fincrony.xl2db;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -73,4 +73,4 @@ public class ExcelToArrayListToConsol {
 	public static void main(String[] args) {
 		new ExcelToArrayListToConsol().readExcel("C:/Users/prabhu/Desktop/Excel1/employee.xlsx");
 	}
-}
+}*/

@@ -1,6 +1,8 @@
 package com.fincrony.xl2db.model;
 
-public class Employee {
+import com.fincrony.printer.console.ConsolPrinter;
+
+public class Employee extends ConsolPrinter {
 
 	private String id;
 	private String name;
@@ -48,4 +50,11 @@ public class Employee {
 		this.joiningDate = joiningDate;
 	}
 
+	@Override
+	public String toString() {
+
+		return "Id = " + this.id + "Name = " + this.name + " Address= " + this.address + "JoiningDate = "
+				+ this.joiningDate + " Salary= " + this.salary;
+
+	}
 }
