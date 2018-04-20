@@ -9,7 +9,7 @@ import com.fincrony.xl2db.model.Employee;
 public class Test {
 
 	@org.junit.Test
-	public void testPrint() {
+	public void test() {
 		
 		Employee emp = new Employee();
 		emp.print();

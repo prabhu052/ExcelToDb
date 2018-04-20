@@ -16,12 +16,6 @@ public class ConsolPrinter implements Printer {
 		Scanner sc = new Scanner(System.in);
 		String path = sc.next();	
 		
-		/*Employee emp = new Employee();
-		emp.getId();
-		emp.getName();
-		emp.getAddress();
-		emp.getSalary();
-		emp.getJoiningDate();*/
 		
 		new DefaultEmployeeParser().readExcel(path);
 		
