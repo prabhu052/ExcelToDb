@@ -9,10 +9,24 @@ import com.fincrony.xl2db.model.Employee;
 public class Test {
 
 	@org.junit.Test
-	public void test() {
+	/*public void test() {
 		
 		Employee emp = new Employee();
-		emp.print();
+		emp.cPrint();
+		
+	}*/
+	
+public void jsonTest() {
+		
+		Employee empl = new Employee();
+		
+		empl.setId("1");
+		empl.setName("Prabhu");
+		empl.setAddress("bbsr");
+		empl.setSalary(42000.00);
+		empl.setJoiningDate("doj");
+		
+		empl.jPrint();
 		
 	}
 }
