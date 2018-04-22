@@ -10,7 +10,7 @@ public class ConsolPrinter implements Printer {
 
 	@SuppressWarnings("resource")
 	@Override
-	public void print() {
+	public void cPrint() {
 		// TODO Auto-generated method stub
 		System.out.println("Enter the path of the Excelfile :");
 		Scanner sc = new Scanner(System.in);
@@ -26,6 +26,12 @@ public class ConsolPrinter implements Printer {
 		emp.getSalary();
 		emp.getJoiningDate();
 
+	}
+
+	@Override
+	public void jPrint() {
+		// TODO Auto-generated method stub
+		
 	}
 
 	

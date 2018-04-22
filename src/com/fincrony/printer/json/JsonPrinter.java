@@ -16,7 +16,7 @@ public class JsonPrinter implements Printer {
 
 	@SuppressWarnings("resource" )
 	@Override
-	public void print() {
+	public void jPrint() {
 		// TODO Auto-generated method stub
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		JsonParser jp = new JsonParser();
@@ -37,6 +37,12 @@ public class JsonPrinter implements Printer {
 		empl.getAddress();
 		empl.getSalary();
 		empl.getJoiningDate();
+		
+	}
+
+	@Override
+	public void cPrint() {
+		// TODO Auto-generated method stub
 		
 	}
 

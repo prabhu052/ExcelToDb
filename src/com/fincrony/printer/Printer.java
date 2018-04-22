@@ -8,5 +8,6 @@ package com.fincrony.printer;
  *
  */
 public interface Printer {
-	public void print();
+	public void cPrint();
+	public void jPrint();
 }

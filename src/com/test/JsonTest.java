@@ -24,6 +24,6 @@ public class JsonTest {
 		Employee empl = new Employee();
 		JSONObject json = new JSONObject(empl); 
 		System.out.println(json.toString(4));
-		empl.print();
+		empl.jPrint();
 	}
 }
