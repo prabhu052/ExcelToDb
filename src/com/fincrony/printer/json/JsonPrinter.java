@@ -8,18 +8,26 @@ import com.fincrony.xl2db.model.Employee;
 public class JsonPrinter implements Printer {
 
 	@Override
-	public void jPrint() {
+	public void jPrint(Employee emp) {
 		// TODO Auto-generated method stub
 			
 		ObjectMapper mapper = new ObjectMapper();
 		
 		
-		 Employee empl = new Employee();
+		 //Employee empl = new Employee();
+		 
+		   /* empl.setId("1");
+			empl.setName("Prabhu");
+			empl.setAddress("bbsr");
+			empl.setSalary(42000.00);
+			empl.setJoiningDate("doj");
+			
+			
 		    empl.getId();
 			empl.getName();
 			empl.getAddress();
 			empl.getSalary();
-			empl.getJoiningDate();
+			empl.getJoiningDate();*/
 			
 			/*empl.setId("1");
 			empl.setName("Prabhu");
@@ -32,14 +40,33 @@ public class JsonPrinter implements Printer {
 				try {
 					System.out.println(mapper
 							.writerWithDefaultPrettyPrinter()
-							.writeValueAsString(empl));
+							.writeValueAsString(emp));
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 			
 }
-
+	public static void main(String []args){
+		// TODO Auto-generated method stub
+		Employee empl = new Employee();
+		 
+	    empl.setId("1");
+		empl.setName("Prabhu");
+		empl.setAddress("bbsr");
+		empl.setSalary(42000.00);
+		empl.setJoiningDate("doj");
+		
+		
+	    empl.getId();
+		empl.getName();
+		empl.getAddress();
+		empl.getSalary();
+		empl.getJoiningDate();
+		
+	    //jPrint(empl);
+		
+	}
 	@Override
 	public void cPrint() {
 		// TODO Auto-generated method stub

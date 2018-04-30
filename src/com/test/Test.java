@@ -9,14 +9,14 @@ import com.fincrony.xl2db.model.Employee;
 public class Test {
 
 	@org.junit.Test
-	/*public void test() {
+	public void test() {
 		
 		Employee emp = new Employee();
 		emp.cPrint();
 		
-	}*/
+	}
 	
-public void jsonTest() {
+/*public void jsonTest() {
 		
 		Employee empl = new Employee();
 		
@@ -28,5 +28,5 @@ public void jsonTest() {
 		
 		empl.jPrint();
 		
-	}
+	}*/
 }
