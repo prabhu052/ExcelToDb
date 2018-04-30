@@ -63,9 +63,10 @@ public class JsonPrinter implements Printer {
 		empl.getAddress();
 		empl.getSalary();
 		empl.getJoiningDate();
-		
-	    //jPrint(empl);
-		
+		 
+		empl.toString();
+		empl.jPrint(empl);
+	   
 	}
 	@Override
 	public void cPrint() {
