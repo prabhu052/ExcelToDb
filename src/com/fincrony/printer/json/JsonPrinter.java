@@ -15,27 +15,6 @@ public class JsonPrinter implements Printer {
 		
 		
 		 //Employee empl = new Employee();
-		 
-		   /* empl.setId("1");
-			empl.setName("Prabhu");
-			empl.setAddress("bbsr");
-			empl.setSalary(42000.00);
-			empl.setJoiningDate("doj");
-			
-			
-		    empl.getId();
-			empl.getName();
-			empl.getAddress();
-			empl.getSalary();
-			empl.getJoiningDate();*/
-			
-			/*empl.setId("1");
-			empl.setName("Prabhu");
-			empl.setAddress("bbsr");
-			empl.setSalary(42000.00);
-			empl.setJoiningDate("doj");*/
-			
-		 
 			
 				try {
 					System.out.println(mapper
