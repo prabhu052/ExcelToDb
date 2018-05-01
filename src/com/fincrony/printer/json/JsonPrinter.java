@@ -8,13 +8,13 @@ import com.fincrony.xl2db.model.Employee;
 public class JsonPrinter implements Printer {
 
 	@Override
-	public void jPrint(Employee emp) {
+	public void jPrint() {
 		// TODO Auto-generated method stub
 			
 		ObjectMapper mapper = new ObjectMapper();
 		
 		
-		 //Employee empl = new Employee();
+		 Employee emp = new Employee();
 			
 				try {
 					System.out.println(mapper
@@ -44,7 +44,7 @@ public class JsonPrinter implements Printer {
 		empl.getJoiningDate();
 		 
 		empl.toString();
-		empl.jPrint(empl);
+		empl.jPrint();
 	   
 	}
 	@Override

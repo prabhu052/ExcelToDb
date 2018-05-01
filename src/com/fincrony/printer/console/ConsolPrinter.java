@@ -29,7 +29,7 @@ public class ConsolPrinter implements Printer {
 	}
 
 	@Override
-	public void jPrint(Employee emp) {
+	public void jPrint() {
 		// TODO Auto-generated method stub
 		
 	}
