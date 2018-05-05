@@ -4,18 +4,18 @@ import com.fincrony.printer.console.ConsolPrinter;
 
 public class Employee extends ConsolPrinter {
 
-	private String id;
+	private String sl;
 	private String name;
 	private String address;
 	private Double salary;
 	private String joiningDate;
 
-	public String getId() {
-		return id;
+	public String getSl() {
+		return sl;
 	}
 
-	public void setId(String id) {
-		this.id = id;
+	public void setSl(String sl) {
+		this.sl = sl;
 	}
 
 	public String getName() {

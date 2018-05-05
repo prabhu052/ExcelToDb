@@ -20,7 +20,7 @@ public class ConsolPrinter implements Printer {
 		new DefaultEmployeeParser().readExcel(path);
 		
 		Employee emp = new Employee();
-		emp.getId();
+		emp.getSl();
 		emp.getName();
 		emp.getAddress();
 		emp.getSalary();
