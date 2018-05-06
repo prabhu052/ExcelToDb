@@ -27,6 +27,14 @@ public class ConsolPrinter implements Printer {
 		emp.getJoiningDate();
 
 	}
+	
+	/*public static void main(String[]args){
+		// TODO Auto-generated method stub
+		ConsolPrinter cpr = new ConsolPrinter();
+		//Employee emp = new Employee();
+		cpr.cPrint();
+			
+	}*/
 
 	@Override
 	public void jPrint() {

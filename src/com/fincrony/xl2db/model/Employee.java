@@ -50,11 +50,11 @@ public class Employee extends ConsolPrinter {
 		this.joiningDate = joiningDate;
 	}
 
-	/*@Override
+	@Override
 	public String toString() {
 
-		return "Id = " + this.id + "Name = " + this.name + " Address= " + this.address + "JoiningDate = "
+		return "Sl = " + this.sl + "Name = " + this.name + " Address= " + this.address + "JoiningDate = "
 				+ this.joiningDate + " Salary= " + this.salary;
 
-	}*/
+	}
 }

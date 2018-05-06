@@ -1,5 +1,6 @@
 package com.test;
 
+import com.fincrony.printer.console.ConsolPrinter;
 import static org.junit.Assert.*;
 import org.junit.*;
 import com.fincrony.printer.json.JsonPrinter;
@@ -11,8 +12,9 @@ public class Test {
 	@org.junit.Test
 	/*public void test() {
 		
-		Employee emp = new Employee();
-		emp.cPrint();
+		ConsolPrinter cpr = new ConsolPrinter();
+		//Employee emp = new Employee();
+		cpr.cPrint();
 		
 	}*/
 	

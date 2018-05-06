@@ -37,7 +37,7 @@ public class JsonPrinter implements Printer {
 				try {
 					System.out.println(mapper
 							.writerWithDefaultPrettyPrinter()
-							.writeValueAsString(emp));
+							.writeValueAsString(emp).toString());
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -45,6 +45,13 @@ public class JsonPrinter implements Printer {
 			
 }
 
+	/*public static void main(String[]args){
+		// TODO Auto-generated method stub
+		
+		 JsonPrinter jpr = new JsonPrinter();
+		 jpr.jPrint();
+			
+	}*/
 	@Override
 	public void cPrint() {
 		// TODO Auto-generated method stub
